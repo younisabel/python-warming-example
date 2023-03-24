@@ -26,3 +26,11 @@ class Summary:
         :rtype: pandas.core.series.Series
         """
         return self._data["CO2C"]
+
+
+    def ch4c(self):
+        """
+        returns the data for 'CH4C'
+        """
+
+        return self._data["CH4C"]
