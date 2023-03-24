@@ -1,0 +1,20 @@
+site_name: Python Warming Example
+
+theme:
+  name: "readthedocs"
+
+plugins:
+  - mkdocstrings:
+      handlers:
+        python:
+          selection:
+            docstring_style: sphinx
+
+markdown_extensions:
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - index.md
+  - issues.md
+  - api.md
